@@ -3,21 +3,21 @@ table 50101 FreeGift
     DataClassification = "CustomerContent";
     DrillDownPageId = "Free Gift List";
     LookupPageId = "Free Gift List";
-    Caption = "Free Gifts";
+    Caption = 'Free Gifts';
 
     fields
     {
         field(1; ItemCategoryCode; Code[20])
         {
             DataClassification = CustomerContent;
-            TableRelation = "Item Category"
-            Caption = "Item Category Code"
+            TableRelation = "Item Category";
+            Caption = 'Item Category Code';
         }
         field(2; ItemNo; Code[20])
         {
             DataClassification = CustomerContent;
-            TableRelation = "Item"
-            Caption = "Item No."
+            TableRelation = "Item";
+            Caption = 'Item No.';
         }
     }
 

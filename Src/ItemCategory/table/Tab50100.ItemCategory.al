@@ -2,7 +2,7 @@ table 50100 "Item Category"
 {
     DrillDownPageId = "Item Category List";
     LookupPageId = "Customer Category List";
-    Caption = "Customer Category";
+    Caption = 'Customer Category';
 
     fields
     {
