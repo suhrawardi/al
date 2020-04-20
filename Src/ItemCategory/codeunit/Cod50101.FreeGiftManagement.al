@@ -22,4 +22,16 @@ codeunit 50101 "FreeGiftManagement"
             end;
         end;
     end;
+
+    [IntegrationEvent(true, true)]
+    local procedure OnBeforeFreeGiftSalesLineAdded(var Rec: Record "Sales Line")
+    begin
+
+    end;
+
+    [IntegrationEvent(true, true)]
+    local procedure OnAfterFreeGiftSalesLineAdded(var Rec: Record "Sales Line", var SalesLineGift: Record "Sales Line")
+    begin
+
+    end;
 }
