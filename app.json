@@ -1,7 +1,7 @@
 {
   "id": "d664d747-28aa-40a9-89a3-06645a6712e4",
   "name": "trial",
-  "publisher": "Default publisher",
+  "publisher": "Developer",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -22,10 +22,36 @@
       "publisher": "Microsoft",
       "name": "Base Application",
       "version": "16.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "16.0.0.0"
+    },
+    {
+      "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "publisher": "Microsoft",
+      "name": "Any",
+      "version": "16.0.0.0"
+    },
+    {
+      "id": "9856ae4f-d1a7-46ef-89bb-6ef056398228",
+      "publisher": "Microsoft",
+      "name": "System Application Test Library",
+      "version": "16.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+        "name": "Tests-TestLibraries",
+        "version": "16.0.0.0"
     }
   ],
   "screenshots": [],
   "platform": "16.0.0.0",
+  "application": "16.0.0.0",
+  "test": "16.0.0.0",
   "idRanges": [
     {
       "from": 50100,
